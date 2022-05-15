@@ -1,0 +1,120 @@
+body{
+    background-color:lightyellow;
+}
+.cabecera{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.barradenavegacion{
+    text-align: center;
+     width: auto;
+    height: 50px;
+    background-color: lightsalmon;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.listabarradenavegacion>li{
+    
+    position: relative;
+	display: inline-block;
+	height: 35px;
+	padding: 15px 10px 0px 10px;
+	margin-right: 5px;
+    
+}
+header{
+    width: auto;
+    height: 100%;
+    background-color: lightyellow;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+h1{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+h2{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.resumen p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.html{
+    width: auto;
+    height: auto;
+    background-color: white;
+
+    float: left;
+}
+.cabecera2{
+
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+
+}
+.cabecera3{
+    
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+    
+
+}
+.css{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    
+
+    
+}
+.css p{
+    color: black;
+}
+section{
+    
+    display: grid;
+    width: auto;
+    grid-template-rows: auto auto;
+    
+}
+section a{
+    display: flex;
+    align-items: flex-end;
+    color: black
+    
+}
+section P{
+    color: black;
+}
+.piedepagina{
+    width: auto;
+    height: auto;
+    background-color: lightsalmon;
+    
+}

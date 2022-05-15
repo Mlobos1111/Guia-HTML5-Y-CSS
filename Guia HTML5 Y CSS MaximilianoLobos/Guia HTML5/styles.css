@@ -1,0 +1,39 @@
+body{
+    background-color:antiquewhite
+    }
+    .cabecera{
+        display: flexbox;
+        text-align: center;
+     
+        
+    }
+    section{
+        display: flexbox;
+        justify-content: flex-start;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+    }
+    
+    
+    nav{
+        width: auto;
+        height:50px;
+        
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: lightblue;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+    img{
+        background-color: transparent;
+    }
